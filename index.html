@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuki - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Gradient Yuki Text on Left -->
+        <div class="left-side">
+            <h1 class="gradient-text">Yuki</h1>
+        </div>
+
+        <!-- Navbar on the Right -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="page2.html">Download</a>
+            <a href="page3.html">License</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content">
+        <div class="home-container">
+            <h2 class="typing-text"></h2>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Yuki. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Animation Function
+        let text = "Yuki";
+        let index = 0;
+        let typingElement = document.querySelector('.typing-text');
+        let typingSpeed = 150; // Speed of typing effect
+        let deleteSpeed = 100; // Speed of deletion
+        let pauseSpeed = 1000; // Pause before restarting animation
+
+        function typeWriter() {
+            if (index < text.length) {
+                typingElement.textContent += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, typingSpeed);
+            } else {
+                setTimeout(deleteText, pauseSpeed); // Wait for 1 second then delete text
+            }
+        }
+
+        function deleteText() {
+            if (index > 0) {
+                typingElement.textContent = text.substring(0, index - 1);
+                index--;
+                setTimeout(deleteText, deleteSpeed);
+            } else {
+                setTimeout(typeWriter, pauseSpeed); // Wait before typing starts again
+            }
+        }
+
+        // Start typing animation
+        typeWriter();
+    </script>
+</body>
+</html>
