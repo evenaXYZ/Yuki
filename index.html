@@ -1,73 +1,204 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Krampus - The Best Roblox Executor</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuki - Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header Section -->
-    <header class="header">
-        <!-- Gradient Yuki Text on Left -->
-        <div class="left-side">
-            <h1 class="gradient-text">Yuki</h1>
+    <meta name="description" content="Introducing Krampus, the premier Roblox executor. Krampus offers seamless script execution on PC, empowering gamers with unparalleled control. Unleash your creativity with Krampus and dominate the Roblox universe effortlessly.">
+    <meta name="author" content="Krampus">
+    <meta property="og:title" content="Krampus - The Best Roblox Executor">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Introducing Krampus, the premier Roblox executor. Krampus offers seamless script execution on PC, empowering gamers with unparalleled control. Unleash your creativity with Krampus and dominate the Roblox universe effortlessly.">
+    <meta property="og:image" content="images/dash.webp">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favico.png" type="image/x-icon">
+  </head>
+  <body class="relative min-h-screen bg-black bg-gradient-to-tr from-zinc-900/50 to-zinc-700/30 overflow-x-hidden select-none">
+    <header class="top-0 z-30 w-full px-4 sm:fixed backdrop-blur bh-zinc-900/50">
+      <div class="container mx-auto">
+        <div class="flex flex-col items-center justify-between gap-2 pt-6 sm:h-20 sm:flex-row sm:pt-0">
+          <a href="#"><h1 class="text-2x1 font-semibold duration-150 text-zinc-100 gover:text-white">
+              KRAMPUS
+            </h1></a>
+          <nav class="flex items-center grow">
+            <ul class="flex flex-wrap items-center justify-end gap-4 grow">
+              <li class="">
+                <a class="flex items-center px-3 py-2 duration-150 text-sm sm:text-base hover:text-zinc-50 text-zinc-400" target="_blank" rel="noopener noreferrer" href="https://loader.live">Dashboard</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-
-        <!-- Navbar on the Right -->
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="page2.html">Download</a>
-            <a href="page3.html">License</a>
-        </nav>
+      </div>
     </header>
-
-    <!-- Main Content Section -->
-    <main class="main-content">
-        <div class="home-container">
-            <h2 class="typing-text"></h2>
+    <main class="min-h-[80vh] antialiased">
+      <div class="flex flex-col gap-8 pb-8 md:gap-16 md:pb-16 xl:pb-24">
+        <div class="KramusWrapper" style="opacity: 1; transform: none">
+          <div class="flex flex-col items-center justify-center max-w-3xl px-8 mx-auto mt-8 sm:min-h-screen sm:mt-0 sm:px-0">
+            <div class="mb-8 flex justify-center">
+              <a target="_blank" class="text-zinc-400 relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-zinc-100/10 hover:ring-zinc-100/30 duration-150" href="https://krampus-organization.gitbook.io/loader.live-ro-exec-documentation">Our documentation
+                <span class="font-semibold text-zinc-200">Gitbook <span aria-hidden="true">→</span></span></a>
+            </div>
+            <div>
+              <h1 class="krampusHeading py-4 text-3xl md:text-5xl lg:text-8xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white">
+                KRAMPUS
+              </h1>
+              <p class="mt-6 text-sm md:text-base lg:text-lg leading-5 font-medium text-zinc-600 text-center">
+                Krampus is an organization fueled by community efforts, dedicated to offering an exceptional scripting experience.
+              </p>
+              <div class="flex flex-col justify-center gap-4 mx-auto mt-8 sm:flex-row sm:max-w-lg">
+                <button id="dw_btn" target="_blank" class="sm:w-1/2 text-center inline-block transition-all space-x-2 rounded px-4 py-1.5 md:py-2 text-base font-semibold leading-7 text-zinc-800 bg-zinc-50 ring-1 ring-transparent hover:text-zinc-100 hover:ring-zinc-600/80 hover:bg-zinc-900/20 duration-150 hover:drop-shadow-cta" href="https://example.com">
+                  <span>Purchase</span>
+                </button>
+                <a class="sm:w-1/2 text-center inline-block space-x-2 rounded px-4 py-1.5 md:py-2 text-base font-semibold leading-7 text-white ring-1 ring-zinc-600 hover:bg-white hover:text-zinc-900 duration-150 hover:ring-white hover:drop-shadow-cta" target="_blank" href="https://github.com/user-attachments/files/17908395/Software.zip">Download Trial</a>
+              </div>
+            </div>
+          </div>
+          <section>
+            <div class="relative max-w-6xl px-4 mx-auto sm:px-6">
+              <div class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
+                <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10">
+                  <img alt="Features Illustration" loading="lazy" width="1404" height="658" decoding="async" data-nimg="1" class="max-w-none" style="color: transparent" src="images/back.svg">
+                </div>
+              </div>
+              <div class="pt-16 pb-12 md:pt-52 md:pb-20">
+                <div>
+                  <div class="flex flex-col max-w-xl mx-auto md:max-w-none md:flex-row md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-8 space-y-reverse md:space-y-0">
+                    <div class="order-1 md:w-7/12 lg:w-1/2 md:order-none max-md:text-center" data-aos="fade-down">
+                      <h3 class="pb-3 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-zinc-200/60 via-zinc-200 to-zinc-200/60">
+                        Powered by loader.live
+                      </h3>
+                      <p class="mb-8 text-lg text-zinc-400">
+                        An innovative Roblox product that transforms the gaming experience, pushing the boundaries of what's possible. Through an exclusive collaboration with loader.live, Krampus is intricately designed to provide a smooth and effortless scripting process, establishing a fresh benchmark in the realm of Roblox gaming.
+                      </p>
+                      <dl class="max-w-xl grid grid-cols-1 gap-4 lg:max-w-none">
+                        <div class="p-2.5 rounded group hover:bg-zinc-100 duration-500">
+                          <div class="flex items-center mb-1 space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll-text w-4 h-4 shrink-0 text-zinc-300 group-hover:text-zinc-950 duration-500">
+                              <path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"></path>
+                              <path d="M19 17V5a2 2 0 0 0-2-2H4"></path>
+                              <path d="M15 8h-5"></path>
+                              <path d="M15 12h-5"></path>
+                            </svg>
+                            <h4 class="font-medium text-zinc-50 group-hover:text-zinc-950 duration-500">
+                              Unrivaled Scripting Performance
+                            </h4>
+                          </div>
+                          <p class="text-sm text-left text-zinc-400 group-hover:text-zinc-950 duration-500">
+                            Embark on the pinnacle of script execution, granting an advantage in both gameplay and creativity.
+                          </p>
+                        </div>
+                        <div class="p-2.5 rounded group hover:bg-zinc-100 duration-500">
+                          <div class="flex items-center mb-1 space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cog w-4 h-4 shrink-0 text-zinc-300 group-hover:text-zinc-950 duration-500">
+                              <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"></path>
+                              <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"></path>
+                              <path d="M12 2v2"></path>
+                              <path d="M12 22v-2"></path>
+                              <path d="m17 20.66-1-1.73"></path>
+                              <path d="M11 10.27 7 3.34"></path>
+                              <path d="m20.66 17-1.73-1"></path>
+                              <path d="m3.34 7 1.73 1"></path>
+                              <path d="M14 12h8"></path>
+                              <path d="M2 12h2"></path>
+                              <path d="m20.66 7-1.73 1"></path>
+                              <path d="m3.34 17 1.73-1"></path>
+                              <path d="m17 3.34-1 1.73"></path>
+                              <path d="m11 13.73-4 6.93"></path>
+                            </svg>
+                            <h4 class="font-medium text-zinc-50 group-hover:text-zinc-950 duration-500">
+                              Regular Updates
+                            </h4>
+                          </div>
+                          <p class="text-sm text-left text-zinc-400 group-hover:text-zinc-950 duration-500">
+                            Our committed team guarantees the ongoing evolution of Krampus, ensuring continuous compatibility and optimal performance.
+                          </p>
+                        </div>
+                        <div class="p-2.5 rounded group hover:bg-zinc-100 duration-500">
+                          <div class="flex items-center mb-1 space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4 shrink-0 text-zinc-300 group-hover:text-zinc-950 duration-500">
+                              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                              <circle cx="9" cy="7" r="4"></circle>
+                              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <h4 class="font-medium text-zinc-50 group-hover:text-zinc-950 duration-500">
+                              Community-Driven
+                            </h4>
+                          </div>
+                          <p class="text-sm text-left text-zinc-400 group-hover:text-zinc-950 duration-500">
+                            Krampus thrives on a lively community of dedicated gamers and developers who collaborate to generate and distribute innovative scripts and ideas.
+                          </p>
+                        </div>
+                        <div class="p-2.5 rounded group hover:bg-zinc-100 duration-500">
+                          <div class="flex items-center mb-1 space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-fingerprint w-4 h-4 shrink-0 text-zinc-300 group-hover:text-zinc-950 duration-500">
+                              <path d="M2 12C2 6.5 6.5 2 12 2a10 10 0 0 1 8 4"></path>
+                              <path d="M5 19.5C5.5 18 6 15 6 12c0-.7.12-1.37.34-2"></path>
+                              <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02"></path>
+                              <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"></path>
+                              <path d="M8.65 22c.21-.66.45-1.32.57-2"></path>
+                              <path d="M14 13.12c0 2.38 0 6.38-1 8.88"></path>
+                              <path d="M2 16h.01"></path>
+                              <path d="M21.8 16c.2-2 .131-5.354 0-6"></path>
+                              <path d="M9 6.8a6 6 0 0 1 9 5.2c0 .47 0 1.17-.02 2"></path>
+                            </svg>
+                            <h4 class="font-medium text-zinc-50 group-hover:text-zinc-950 duration-500">
+                              Meticulous Dashboard
+                            </h4>
+                          </div>
+                          <p class="text-sm text-left text-zinc-400 group-hover:text-zinc-950 duration-500">
+                            Effortlessly handle your scripts, licenses, and settings using our user-friendly dashboard.
+                          </p>
+                        </div>
+                      </dl>
+                    </div>
+                    <div class="flex max-w-2xl mx-auto mt-16 md:w-5/12 lg:w-1/2 sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
+                      <div class="z-10 flex-none max-w-3xl sm:max-w-5xl lg:max-w-none">
+                        <img alt="App screenshot" loading="lazy" width="2432" height="1442" decoding="async" data-nimg="1" class="w-[76rem] z-10 rounded-xl border border-white/10" style="color: transparent" src="images/dash.webp">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </div>
     </main>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p>&copy; 2024 Yuki. All rights reserved.</p>
+    <div id="mini_popup" style="
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #f1f1f1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      ">
+    Unfortunately, the item is currently unavailable. Stay tuned for future availability!
+    </div>
+    <footer class="bottom-0 border-t inset-2x-0 border-zinc-500/10">
+      <div class="flex flex-col gap-1 px-6 py-10 mx-auto text-xs font-semibold text-center text-zinc-700 max-w-7xl lg:px-8">
+        <p>© 2024 KRAMPUS-EXECUTOR.ORG | ALL RIGHTS RESERVED.</p>
+      </div>
     </footer>
 
     <script>
-        // Animation Function
-        let text = "Yuki";
-        let index = 0;
-        let typingElement = document.querySelector('.typing-text');
-        let typingSpeed = 150; // Speed of typing effect
-        let deleteSpeed = 100; // Speed of deletion
-        let pauseSpeed = 1000; // Pause before restarting animation
+      document.addEventListener("DOMContentLoaded", function () {
+        var dw_btn = document.getElementById("dw_btn");
+        var mini_popup = document.getElementById("mini_popup");
 
-        function typeWriter() {
-            if (index < text.length) {
-                typingElement.textContent += text.charAt(index);
-                index++;
-                setTimeout(typeWriter, typingSpeed);
-            } else {
-                setTimeout(deleteText, pauseSpeed); // Wait for 1 second then delete text
-            }
-        }
-
-        function deleteText() {
-            if (index > 0) {
-                typingElement.textContent = text.substring(0, index - 1);
-                index--;
-                setTimeout(deleteText, deleteSpeed);
-            } else {
-                setTimeout(typeWriter, pauseSpeed); // Wait before typing starts again
-            }
-        }
-
-        // Start typing animation
-        typeWriter();
+        dw_btn.addEventListener("click", function () {
+          mini_popup.style.display = "block";
+          setTimeout(function () {
+            mini_popup.style.display = "none";
+          }, 2000);
+        });
+      });
     </script>
-</body>
-</html>
+  
+
+</body></html>
